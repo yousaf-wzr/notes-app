@@ -116,7 +116,7 @@ const App = () => {
           ? "bg-zinc-950 text-white"
           : "bg-zinc-100 text-black"
       }`}
-    >
+     >
 
       <div className='max-w-7xl mx-auto grid lg:grid-cols-2 gap-10'>
 
@@ -128,7 +128,7 @@ const App = () => {
               ? "bg-zinc-900 border-zinc-800"
               : "bg-white border-zinc-300"
           }`}
-        >
+         >
 
           <h1 className='text-4xl font-bold mb-2 tracking-tight'>
             Notes App
@@ -147,7 +147,7 @@ const App = () => {
           <form
             onSubmit={submitHandler}
             className='flex flex-col gap-5'
-          >
+           >
 
             {/* Dynamic themed input field */}
             <input
@@ -211,7 +211,7 @@ const App = () => {
               ? "bg-zinc-900 border-zinc-800"
               : "bg-white border-zinc-300"
           }`}
-        >
+         >
 
           {/* Header with notes count + theme toggle */}
           <div className='flex items-center justify-between mb-8'>
@@ -266,7 +266,7 @@ const App = () => {
 
               </div>
 
-            ) : (
+             ) : (
 
               task.map((elem, idx) => {
 
